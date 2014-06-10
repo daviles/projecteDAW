@@ -1,0 +1,164 @@
+
+#head{
+    position:absolute;
+    border: 2px solid red;
+    width: 800px;
+    height: 90px;
+    left:200px;
+    top:20px;
+    
+}
+ 
+#menu{
+    position:absolute;
+    border: 2px solid #2175bc;
+    width: 800px;
+    height: 32px;
+    left:200px;
+    top:120px;
+    background-color: #2175bc;
+    
+}
+
+#cuerpo{
+    position:absolute;
+    border: 2px solid green;
+    width: 800px;
+    height: 400px;
+    left:200px;
+    top:156px;
+}
+
+#botones{
+    position :absolute;
+    left: 60px;
+    top: -17px;
+}
+
+#botones li{display:inline;}
+
+#botones li a { 
+    font-family: Arial; 
+    font-size:11px; 
+    text-decoration: none; 
+    float:left; 
+    padding: 10px;
+    background-color: #2175bc; 
+    color: #fff; 
+} 
+
+#botones li a:hover { 
+    background-color: #2586d7; 
+    margin-top:-2px; 
+    padding-bottom:12px; 
+} 
+
+#logout{
+    float: right;
+}
+
+#submit {
+    background-color: #2175bc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+#submit:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
+#tabInsertaUser{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    //border: 2px solid #2175bc;
+    text-align:center;
+    
+}
+
+#tabEliminaUsuario{
+    //border: 2px solid #2175bc;
+    position: absolute;
+    text-align:center;
+    top: 130px;
+    left: 0px;
+    
+}
+
+#tabUsuarios{
+    //border: 2px solid #2175bc;
+    position:absolute;
+    top: 20px;
+    left: 280px;
+    text-align:center;
+    padding: 4px;
+     
+    
+}
+
+#tabUsuarios tr:nth-child(odd) {
+   background-color: white;
+   color:black;
+}
+
+#tabUsuarios tr:nth-child(even) {
+   background-color: #DDD;
+   color:black;
+}
+
+#tabUsuarios th{
+   background-color: #2175bc;
+   color:white;
+}
+
+
+#caseUsuarios{
+    position: absolute;
+    border: 2px solid #2175bc;
+    width: 240px;
+    height: 240px;
+    top:20px;
+    left:20px;
+}
+
+#tabVerInventario{
+    position:absolute;
+    top: 60px;
+    left: 180px;
+    text-align:center;
+    padding: 4px;
+}
+
+#tabVerInventario tr:nth-child(odd) {
+   background-color: white;
+   color:black;
+}
+
+#tabVerInventario tr:nth-child(even) {
+   background-color: #DDD;
+   color:black;
+}
+
+#tabVerInventario th{
+   background-color: #2175bc;
+   color:white;
+}
+
+#caseFiltros{
+    position: absolute;
+    top:10px;
+    left:120px;
+    border: 2px solid #2175bc;
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+}
