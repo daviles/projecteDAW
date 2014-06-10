@@ -121,6 +121,7 @@
                 <li><a href="index.php?link=clienteInicio.php">Datos del Cliente</a></li>
                 <li><a href="index.php?link=presupuestoCliente.php">Añadir Zonas</a></li>
                 <li><a href="index.php?link=verPresupuestoCliente.php">Ver Presupuesto</a></li>
+                <li><a href="">Datos Usuario</a></li>
 
             </ul>
             <form id="logout" name="logout" method="POST" action="index.php">
